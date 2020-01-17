@@ -1,6 +1,7 @@
 .git
 ./.gitignore
 ./.travis.yml
+./.eslintrc
 ./test
 
 node_modules
