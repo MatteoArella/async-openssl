@@ -2,3 +2,6 @@ language: node
 
 before_install:
   - sudo apt-get -y install openssl
+
+notifications:
+  email: false
