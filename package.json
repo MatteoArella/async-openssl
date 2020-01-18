@@ -19,7 +19,7 @@
         "chai-as-promised": "^7.1.1"
     },
     "scripts": {
-        "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 --ignore-pattern 'test/'",
+        "lint": "node ./node_modules/eslint/bin/eslint src --max-warnings=0",
         "test": "npm run lint && mocha test/index.js"
     }
 }
